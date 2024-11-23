@@ -1,6 +1,7 @@
-        !COMPILER-GENERATED INTERFACE MODULE: Sat Nov 23 22:49:17 2024
-        ! This source file is for reference only and may not completely
-        ! represent the generated interface used by the compiler.
+# 1 "f:\kexuejisuanfangfashiyan\P151\sor__genmod.f90"
+!COMPILER-GENERATED INTERFACE MODULE: Sat Nov 23 22:49:17 2024
+! This source file is for reference only and may not completely
+! represent the generated interface used by the compiler.
         MODULE SOR__genmod
           INTERFACE 
             SUBROUTINE SOR(A,B,N,X,OMEGA,EPSILON,N_STEP)
