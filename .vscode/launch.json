@@ -28,8 +28,8 @@
   
         "MIMode":"gdb",
   
-        "miDebuggerPath": "D:\\Program Files (x86)\\Intel\\oneAPI\\debugger\\2024.2\\opt\\debugger\\bin\\gdb-oneapi.exe", //工位电脑设置
-        // "miDebuggerPath":"C:\\Program Files (x86)\\Intel\\oneAPI\\debugger\\2024.2\\opt\\debugger\\bin\\gdb-oneapi.exe",//自己电脑设置
+        //"miDebuggerPath": "D:\\Program Files (x86)\\Intel\\oneAPI\\debugger\\2024.2\\opt\\debugger\\bin\\gdb-oneapi.exe", //工位电脑设置
+        "miDebuggerPath":"C:\\Program Files (x86)\\Intel\\oneAPI\\debugger\\2024.2\\opt\\debugger\\bin\\gdb-oneapi.exe",//自己电脑设置
   
         "setupCommands": [
   
