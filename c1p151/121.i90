@@ -1,3 +1,4 @@
+# 1 "f:\kexuejisuanfangfashiyan\c1p151\121.f90"
 program problem121
     implicit none
     real:: x=2.0,x_step
