@@ -7,7 +7,6 @@ subroutine bigtosmall(n)
         Sn = Sn + 1.0/(i**2-1)        
     end do
     print*, Sn
-    ! Sn=0.0
     return
 end subroutine bigtosmall
 subroutine smalltobig(n)
