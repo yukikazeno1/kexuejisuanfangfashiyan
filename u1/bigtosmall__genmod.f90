@@ -1,4 +1,4 @@
-        !COMPILER-GENERATED INTERFACE MODULE: Sat Nov 23 23:15:38 2024
+        !COMPILER-GENERATED INTERFACE MODULE: Mon Nov 25 22:28:40 2024
         ! This source file is for reference only and may not completely
         ! represent the generated interface used by the compiler.
         MODULE BIGTOSMALL__genmod
