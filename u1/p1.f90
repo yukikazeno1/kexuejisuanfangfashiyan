@@ -21,6 +21,13 @@ subroutine smalltobig(n)
     print*, Tn
     return
 end subroutine smalltobig
+subroutine standard(n)
+    integer*8, intent(in) :: n
+    real(4)::Standard1
+    Standard1 = 1.0/2.0*(3.0/2.0-(n+1.0)/((n+1.0)*(n)))
+    print*, Standard1
+    return
+end subroutine standard
 program u1problem1
     implicit none
     integer*8::n,k
@@ -29,5 +36,6 @@ program u1problem1
         print*, n
         call smalltobig(n)
         call bigtosmall(n)
+        call standard(n)
     end do
 end program u1problem1

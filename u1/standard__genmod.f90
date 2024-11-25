@@ -1,10 +1,10 @@
         !COMPILER-GENERATED INTERFACE MODULE: Mon Nov 25 22:37:50 2024
         ! This source file is for reference only and may not completely
         ! represent the generated interface used by the compiler.
-        MODULE SMALLTOBIG__genmod
+        MODULE STANDARD__genmod
           INTERFACE 
-            SUBROUTINE SMALLTOBIG(N)
+            SUBROUTINE STANDARD(N)
               INTEGER(KIND=8), INTENT(IN) :: N
-            END SUBROUTINE SMALLTOBIG
+            END SUBROUTINE STANDARD
           END INTERFACE 
-        END MODULE SMALLTOBIG__genmod
+        END MODULE STANDARD__genmod
