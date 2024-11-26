@@ -7,7 +7,7 @@ subroutine bigtosmall(n)
     do i = 2, n
         Sn = Sn + 1.0/(i**2-1)        
     end do
-    print*, Sn
+    print*,"bigtosmall=", Sn
     return
 end subroutine bigtosmall
 subroutine smalltobig(n)
@@ -18,14 +18,14 @@ subroutine smalltobig(n)
     do i = n, 2, -1
         Tn = Tn + 1.0_8/(i**2-1)        
     end do
-    print*, Tn
+    print*,"smalltobig=",Tn
     return
 end subroutine smalltobig
 subroutine standard(n)
     integer*8, intent(in) :: n
     real(4)::Standard1
     Standard1 = 1.0/2.0*(3.0/2.0-(n+1.0)/((n+1.0)*(n)))
-    print*, Standard1
+    print*, "标准 = ", Standard1
     return
 end subroutine standard
 program u1problem1

@@ -1,12 +1,11 @@
         !COMPILER-GENERATED INTERFACE MODULE: Tue Nov 26 16:50:36 2024
         ! This source file is for reference only and may not completely
         ! represent the generated interface used by the compiler.
-        MODULE CALCULATE_INF_NORM__genmod
+        MODULE VECTOR_COMPUTE__genmod
           INTERFACE 
-            SUBROUTINE CALCULATE_INF_NORM(INPUT_VECTOR,N,NORM_INF)
+            SUBROUTINE VECTOR_COMPUTE(N,INPUT_VECTOR)
               INTEGER(KIND=4), INTENT(IN) :: N
               REAL(KIND=4), INTENT(IN) :: INPUT_VECTOR(N)
-              REAL(KIND=4), INTENT(OUT) :: NORM_INF
-            END SUBROUTINE CALCULATE_INF_NORM
+            END SUBROUTINE VECTOR_COMPUTE
           END INTERFACE 
-        END MODULE CALCULATE_INF_NORM__genmod
+        END MODULE VECTOR_COMPUTE__genmod

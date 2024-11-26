@@ -1,6 +1,7 @@
-        !COMPILER-GENERATED INTERFACE MODULE: Tue Nov 26 16:50:36 2024
-        ! This source file is for reference only and may not completely
-        ! represent the generated interface used by the compiler.
+# 1 "f:\kexuejisuanfangfashiyan\u1\calculate_2_norm__genmod.f90"
+!COMPILER-GENERATED INTERFACE MODULE: Tue Nov 26 16:50:36 2024
+! This source file is for reference only and may not completely
+! represent the generated interface used by the compiler.
         MODULE CALCULATE_2_NORM__genmod
           INTERFACE 
             SUBROUTINE CALCULATE_2_NORM(INPUT_VECTOR,N,NORM2)
